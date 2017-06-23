@@ -9,9 +9,30 @@ body {
 
 #mainNav i {
 	cursor: pointer;
-	padding-top: 20px;
 }
 
+header {
+	position: relative;
+	width: 100%;
+	min-height: auto;
+	overflow-y: hidden;
+}
+
+header .header-content {
+	text-align: left;
+	padding: 250px 0 50px;
+	position: relative;
+}
+header .header-content .header-content-inner {
+	position: relative;
+	max-width: 500px;
+	margin: 0 auto;
+}
+header .header-content .header-content-inner h2 {
+	margin-top: 0;
+	margin-bottom: 30px;
+	font-size: 30px;
+}
 
 .overlay {
 	height: 0%;

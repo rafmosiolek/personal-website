@@ -14,6 +14,7 @@ body {
 header {
 	position: relative;
 	width: 100%;
+	height: 100vh;
 	min-height: auto;
 	overflow-y: hidden;
 }
@@ -32,6 +33,10 @@ header .header-content .header-content-inner h2 {
 	margin-top: 0;
 	margin-bottom: 30px;
 	font-size: 30px;
+}
+
+header h1 {
+	color: red;
 }
 
 .overlay {
@@ -75,6 +80,21 @@ header .header-content .header-content-inner h2 {
 	font-size: 60px;
 }
 
+#about {
+	height: 400px;
+}
+
+#projects {
+	background-color: yellow;
+	height: 600px;
+}
+
+#contact {
+	background-color: pink;
+	height: 300px;
+}
+
+/*media queries*/
 @media screen and (max-height: 450px) {
 	.overlay {overflow-y: auto;}
 	.overlay a {font-size: 20px}

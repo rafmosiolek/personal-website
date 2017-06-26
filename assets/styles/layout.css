@@ -1,0 +1,130 @@
+/*		NAVIGATION		*/
+
+#mainNav {
+/*	height: 64px;*/
+}
+
+#mainNav i {
+	cursor: pointer;
+	font-size: 22px;
+	padding: 10px;
+}
+
+#mainNav i:hover, #mainNav i:focus {
+	color: red;
+}
+
+/*OVERLAY NAVIGATION*/
+.overlay-nav {
+	height: 0%;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0, 0.9);
+	overflow-y: hidden;
+	transition: 0.5s;
+}
+
+.overlay-nav-content {
+	position: relative;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.overlay-nav a {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 36px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.overlay-nav a:hover, .overlay-nav a:focus {
+	color: #f1f1f1;
+}
+
+.overlay-nav .closebtn {
+	position: absolute;
+	top: 10px;
+	right: 45px;
+	font-size: 50px;
+}
+
+
+/*media queries for overlay nav*/
+@media screen and (max-height: 450px) {
+	.overlay {overflow-y: auto;}
+	.overlay a {font-size: 20px}
+	.overlay .closebtn {
+		font-size: 40px;
+		top: 15px;
+		right: 35px;
+	}
+}
+
+
+
+/*		HEADER 		*/
+
+header {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	min-height: auto;
+	overflow-y: hidden;
+}
+
+header .header-content {
+	text-align: left;
+	padding: 250px 0 50px;
+	position: relative;
+}
+header .header-content .header-content-inner {
+	position: relative;
+	max-width: 500px;
+	margin: 0 auto;
+}
+header .header-content .header-content-inner h2 {
+	margin-top: 0;
+	margin-bottom: 30px;
+	font-size: 30px;
+}
+
+header h1 {
+	color: #ee303c;
+}
+
+
+/*		ABOUT 		*/
+#about {
+	background: white;
+
+}
+.about {
+	background: rgb(242, 242, 242);
+	padding: 50px;
+
+
+}
+
+/*		PROJECTS 		*/
+#projects {
+	background-color: yellow;
+	margin: 20px;
+
+}
+
+
+/*		CONTACT 		*/
+#contact {
+	background: black;
+	color: white;
+	margin: 20px;
+
+}

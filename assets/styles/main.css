@@ -4,11 +4,17 @@ body {
 }
 
 #mainNav {
-	height: 64px;
+/*	height: 64px;*/
 }
 
 #mainNav i {
 	cursor: pointer;
+	font-size: 22px;
+	padding: 10px;
+}
+
+#mainNav i:hover, #mainNav i:focus {
+	color: red;
 }
 
 header {
@@ -81,17 +87,21 @@ header h1 {
 }
 
 #about {
-	height: 400px;
+	background: white;
+}
+.about {
+	background: rgb(242, 242, 242);
+
 }
 
 #projects {
 	background-color: yellow;
-	height: 600px;
+
 }
 
 #contact {
 	background-color: pink;
-	height: 300px;
+
 }
 
 /*media queries*/

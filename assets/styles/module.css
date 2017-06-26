@@ -27,8 +27,19 @@
 
 }
 
+/*		about section modules 		*/
 
+.about {
+	background: rgb(242, 242, 242);
+	width: 80%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
 
+/*media queries for .about*/
+@media screen and (max-width: 525px) {
+	.about {width: 100%;}
+}
 
 .about h4 {
 	padding: 15px 0px 15px 0px;

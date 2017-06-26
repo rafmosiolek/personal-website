@@ -104,6 +104,7 @@ header h1 {
 /*		ABOUT 		*/
 #about {
 	background: white;
+	margin: 20px;
 
 }
 .about {
@@ -113,10 +114,22 @@ header h1 {
 
 }
 
+/* TRICKS */
+
+#tricks {
+	background: white;
+}
+
+.tricks-inner {
+	color: black;
+	margin: 20px;
+	padding: 50px;
+}
+
+
 /*		PROJECTS 		*/
 #projects {
-	background-color: yellow;
-	margin: 20px;
+	background: #92DDF2;
 
 }
 
@@ -126,5 +139,6 @@ header h1 {
 	background: black;
 	color: white;
 	margin: 20px;
+	padding: 50px;
 
 }

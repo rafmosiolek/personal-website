@@ -4,15 +4,7 @@
 /*	height: 64px;*/
 }
 
-#mainNav i {
-	cursor: pointer;
-	font-size: 22px;
-	padding: 10px;
-}
 
-#mainNav i:hover, #mainNav i:focus {
-	color: red;
-}
 
 /*OVERLAY NAVIGATION*/
 .overlay-nav {
@@ -34,26 +26,6 @@
 	width: 100%;
 	text-align: center;
 	margin-top: 30px;
-}
-
-.overlay-nav a {
-	padding: 8px;
-	text-decoration: none;
-	font-size: 36px;
-	color: #818181;
-	display: block;
-	transition: 0.3s;
-}
-
-.overlay-nav a:hover, .overlay-nav a:focus {
-	color: #f1f1f1;
-}
-
-.overlay-nav .closebtn {
-	position: absolute;
-	top: 10px;
-	right: 45px;
-	font-size: 50px;
 }
 
 
@@ -105,13 +77,12 @@ header h1 {
 #about {
 	background: white;
 	margin: 20px;
+	color: #666666;
 
 }
 .about {
 	background: rgb(242, 242, 242);
-	padding: 50px;
-
-
+	padding: 40px 30px 40px 0px;
 }
 
 /* TRICKS */

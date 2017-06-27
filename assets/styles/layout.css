@@ -1,6 +1,8 @@
 /*		NAVIGATION		*/
 
-
+#mainNav {
+	/*background: #DDDDDD;*/
+}
 
 /*OVERLAY NAVIGATION*/
 .overlay-nav {
@@ -64,14 +66,22 @@ header h1 {
 }
 
 
-/*		ABOUT 		*/
-#about {
-	background: white;
-	margin: 20px;
-	color: #666666;
 
+
+/*		ABOUT 		*/
+.about {
+	width: 70%;
+	background: #F6F7EB;
+	border-radius: 6px;
 }
 
+@media screen and (max-width: 720px) {
+	.about {
+		width: 100%
+	};
+
+	
+}
 
 /* TRICKS */
 

@@ -10,7 +10,7 @@
 
 .navbar-header {
 	width: 100%;
-}s
+}
 
 /*overlay-nav modules*/
 
@@ -45,18 +45,29 @@
 
 /*		about section modules 		*/
 
-.about {
-	background: rgb(242, 242, 242);
-	width: 80%;
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-
-/*media queries for .about*/
-@media screen and (max-width: 525px) {
-	.about {width: 100%;}
-}
-
 .about h4 {
-	padding: 15px 0px 15px 0px;
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+.about p {
+	margin: 20px 60px;
+	padding: 20px 60px;
+}
+
+.about .btn {
+	margin-bottom: 50px;
+}
+
+@media screen and (max-width: 850px) {
+	.about h4 { 
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	.about p {
+		margin: 10px 20px;
+		padding: 20px;
+	}
+	.about .btn {
+		margin-bottom: 40px;
+	}
 }

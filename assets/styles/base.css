@@ -43,3 +43,7 @@ i {
 	color: #fff;
 
 }
+
+.list-group-item-text {
+	font-size: 10px;
+}

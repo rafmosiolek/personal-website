@@ -4,27 +4,37 @@
 	float: right;
 	clear: both;
 	cursor: pointer;
-
-
 }
 
 /*overlay-nav modules*/
 
 .overlay-nav a {
-	padding: 8px;
-	text-decoration: none;
-	font-size: 36px;
-	color: #818181;
-	display: block;
-	transition: 0.3s;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
 }
 
 .overlay-nav a:hover, .overlay-nav a:focus {
-	color: #f1f1f1;
+    color: #f1f1f1;
 }
 
-.closebtn i {
+.overlay-nav .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
 
+@media screen and (max-height: 450px) {
+  .overlay-nav a {font-size: 20px}
+  .overlay-nav .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 }
 
 /*		about section modules 		*/

@@ -2,8 +2,14 @@
 
 #mainNav i {
 	float: right;
-	clear: both;
 	cursor: pointer;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-size: 20px;
+}
+
+.navbar-header {
+	width: 100%;
 }
 
 /*overlay-nav modules*/

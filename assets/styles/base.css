@@ -10,7 +10,7 @@ html, body {
 }
 
 a {
-	color: #777;
+	color: #AAAAAA;
 }
 
 a:hover, a:focus {
@@ -18,14 +18,16 @@ a:hover, a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-
+	color: rgb(102, 102, 102);
 }
 
 p {
 	text-align: justify;
+	color: rgb(102, 102, 102);
 }
 
 i {
+	color: #AAAAAA;
 	margin: 10px;
 }
 
